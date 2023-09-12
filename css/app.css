@@ -1,0 +1,91 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+/* HEADER */
+header.navbar {
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 1rem;
+  z-index: 999;
+  position: fixed;
+  background-color: white;
+}
+
+header.navbar .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header.navbar .logo img {
+  width: 50px;
+}
+ 
+header.navbar .nav-list ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem 1rem;
+}
+ 
+header.navbar .nav-list li {
+  list-style-type: none;
+}
+ 
+header.navbar .nav-list li a {
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: black;
+  padding: .5rem 1.5rem;
+  border-radius: 999px;
+  transition: all .2s ease-in-out;
+}
+ 
+header.navbar .nav-list li:hover a {
+  background-color: #425c77;
+  color: white;
+}
+
+/* MAIN */
+#home {
+  background-color: rgb(241, 237, 215);
+  padding: 300px;
+}
+.content {
+  
+}
+
+.welcome {
+  padding: 10px;
+}
+
+.benefit {
+  padding: 10px;
+}
+
+#service {
+  background-color: rgb(186, 183, 167);
+  padding: 300px;
+}
+
+.varian {
+  background-color: rgb(213, 192, 131);
+  padding: 10px;
+}
+
+#about {
+  background-color: rgb(237, 228, 178);
+  padding: 300px;
+}
+
+.profile-store {
+  padding: 10px;
+}
+
+.profile-developer {
+  padding: 10px;
+}
