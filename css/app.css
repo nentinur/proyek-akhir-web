@@ -15,6 +15,7 @@
   margin: 0;
   display: flex;
   flex-direction: column;
+  background-color: rgb(199, 228, 248);
  }
 
 /* HEADER */
@@ -65,9 +66,7 @@ header.navbar .nav-list li:hover a {
   text-decoration: underline;
 }
 /* MAIN */
-main {
-  background-color: rgb(199, 228, 248);
-}
+
 #home {
   padding: 10px;
   height: 100hv;
@@ -79,7 +78,6 @@ main {
 .content {
   flex: 1;
   display: flex;
-  align-items: center;
 }
 
 .icon {
@@ -106,7 +104,6 @@ main {
 #service {
   padding: 10px 10px 100px 10px;
   height: 100hv;
-  padding-top: 80px;
   align-items: center;
 }
 
@@ -171,4 +168,92 @@ main {
 footer {
   text-align: center;
   padding: 20px;
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  header.navbar {
+    flex-direction: column;
+  }
+
+  #home {
+    padding: 130px 10px 150px 10px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  
+  .icon, .welcome {
+    padding: 20px;
+    flex: 1 1;
+    background-color: white;
+    margin: 10px;
+    border-radius: 0 70px 0 70px;
+  }
+  
+  .icon img {
+    margin-left: 70px;
+    width: 300px;
+  }
+
+  #service {
+    padding: 120px 10px 10px 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .service-title {
+    margin: 0 0 50px 10px;
+    align-items: center;
+  }
+  
+  .layanan {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column
+  }
+
+  .varian {
+    border-radius: 20px;
+    background-color: white;
+  }
+  
+  #about {
+    padding: 120px 10px 10px 10px;
+    height: 100hv;
+  }
+  
+  #about h1, h2 {
+    text-align: center;
+  }
+  
+  .profile-image img {
+    width: 95%;
+    justify-content: center;
+  }
+  
+  .profile-store, .profile-developer {
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-store, .about-developer {
+    justify-content: left;
+    width: 100%;
+    margin-left: 20px;
+  }
 }
