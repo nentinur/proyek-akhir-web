@@ -146,7 +146,7 @@ header.navbar .nav-list li:hover a {
   justify-content: center;
 }
 
-.profile-store, .profile-developer {
+.profile-store {
   border-radius: 20px;
   background-color: white;
   padding: 10px;
@@ -159,7 +159,7 @@ header.navbar .nav-list li:hover a {
   display: flex;
 }
 
-.about-store, .about-developer {
+.about-store {
   width: 50%;
   justify-content: left;
   margin-left: 20px;
@@ -237,7 +237,7 @@ footer {
     justify-content: center;
   }
   
-  .profile-store, .profile-developer {
+  .profile-store {
     border-radius: 20px;
     background-color: white;
     padding: 10px;
@@ -251,7 +251,7 @@ footer {
     flex-direction: column;
   }
   
-  .about-store, .about-developer {
+  .about-store {
     justify-content: left;
     width: 100%;
     margin-left: 20px;
