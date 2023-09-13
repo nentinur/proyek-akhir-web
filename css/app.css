@@ -4,6 +4,10 @@
   box-sizing: border-box;
  }
 
+ h1 {
+  font-size: 30px;
+ }
+
  body {
   height: 100vh;
   font-family: 'Bitter', serif;
@@ -70,6 +74,7 @@ main {
   display: flex;
   padding-top: 100px;
   padding-bottom: 150px;
+  margin: 0 auto;
 }
 .content {
   flex: 1;
@@ -92,7 +97,7 @@ main {
 }
 
 .welcome {
-  padding: 50px 50px 80px 50px;
+  padding: 50px 50px 50px 50px;
   flex: 1;
   background-color: white;
   border-radius: 0 100px 0 100px;
@@ -129,16 +134,41 @@ main {
   border-style: dashed;
   border-color: rgba(10,87,162,255);
 }
-/*
+
 #about {
-  background-color: rgb(237, 228, 178);
-  padding: 300px;
+  padding: 10px 10px 100px 10px;
+  height: 100hv;
 }
 
-.profile-store {
+#about h1, h2 {
+  text-align: center;
+}
+
+.profile-image img {
+  width: 400px;
+  justify-content: center;
+}
+
+.profile-store, .profile-developer {
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
   padding: 10px;
 }
 
-.profile-developer {
-  padding: 10px;
-} */
+.container {
+  padding: 20px;
+  display: flex;
+}
+
+.about-store, .about-developer {
+  width: 50%;
+  justify-content: left;
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
